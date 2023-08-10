@@ -1,13 +1,105 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+* {
+  box-sizing: border-box;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body {
+  margin: 0;
 }
+
+.pages{
+  text-align: center;
+  padding-top: 2rem;
+  font-size: 2rem;
+
+}
+
+.nav{
+  background-color: #333;
+  color: white;
+  display: flex;
+  align-items: stretch;
+  justify-content: space-between;
+  padding: 0px 3rem;
+  height: 125px;
+}
+
+.icon{
+  font-size: 40px;
+  text-align: center;
+  
+}
+
+.nav ul {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  gap: 1rem;
+  list-style: none;
+}
+
+.nav a {
+  color: #ecb213;
+  text-decoration: inherit;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  padding: 0.5rem;
+  font-size: 34px;
+}
+
+.nav a:hover {
+  color: #22e318;
+}
+
+.nav li.active{
+  background-color: #555 ;
+}
+.nav li:hover{
+  background-color: #777 ;
+}
+
+.todas-imagens{
+  display: flex;
+  justify-content: center;
+  margin-top: -60px;
+  align-items: center;
+
+}
+.imagem{
+  padding: 40px;
+  margin: 10px;
+  align-items: center;
+}
+.todas-imagens img{
+  width: 15rem;
+  padding: 2.5rem;
+  align-items: center;
+  
+
+}
+.todas-imagens img:hover{
+  width: 35rem;
+  padding: 2.5rem;
+  margin-top: -65px;
+  background-color: #22e31858;
+  border-radius: 10%;
+ 
+}
+
+
+.imagem-produtos{
+  display: flex;
+  justify-content: center;
+  margin-top: 80px;
+  align-items: center;
+
+}
+.imagem-prod{
+  padding: 0px;
+  margin: 0px;
+}
+.imagem-prod img{
+  width: 90%;
+  padding: 1.5rem;
+}
+

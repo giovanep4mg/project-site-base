@@ -1,0 +1,44 @@
+.nav{
+    background-color: #333;
+    color: white;
+    display: flex;
+    align-items: stretch;
+    justify-content: space-between;
+    padding: 0px 3rem;
+    height: 125px;
+  }
+  
+  .icon{
+    font-size: 40px;
+    text-align: center;
+    
+  }
+  
+  .nav ul {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 1rem;
+    list-style: none;
+  }
+  
+  .nav a {
+    color: #ecb213;
+    text-decoration: inherit;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding: 0.5rem;
+    font-size: 34px;
+  }
+  
+  .nav a:hover {
+    color: #22e318;
+  }
+  
+  .nav li.active{
+    background-color: #555 ;
+  }
+  .nav li:hover{
+    background-color: #777 ;
+  }
