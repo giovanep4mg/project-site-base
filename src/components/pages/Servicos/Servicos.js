@@ -1,72 +1,51 @@
+import Header from '../../Header/Header';
+import Footer from '../../Footer/Footer';
+
+import styles from  './Servicos.module.css';
 import styled from 'styled-components';
 
-const FundoServico =styled.div`
-    background-image: url('./src/assets/barbearia3.png');
-    background-size: 150%;
-    background-repeat: no-repeat;
-    position: relative;
-    margin: -29px;
-    padding-top: 15px;
-    padding-bottom: 117px;
-    width: 102%;
-`;
+import Imagem1 from './imagens/corte-cabelo-masculino-trabalho-profissional-02.webp';
 
-const TodaPg = styled.div`
-    background-color: #7fffd457;
-    margin: 15;
-    padding: 10;
-    font-size: 30px;
-    text-align: center;
-    text-decoration: underline;
-`;
+const TitleImage=styled.h3`
+   border-radius: 10%;
+   font-family: serif;
+   font-size: 2rem;
+   text-align: center;
+   margin: -60px;
 
-const AlinhaDiv = styled.div`
-    display: inline-flex;
-    margin: -10px;
-    padding: 0px;
-    justify-content: center;
-    width: 80%;
-
-`
-const TamanhoDiv = styled.div`
-    width: 48%;
-    border: 6px solid #dec129;
-    
+   
 `;
-const Img = styled.img`
-    width: -webkit-fill-available;
-`;
-
-const SubTitulo = styled.h2`
-    color: black;
-    background-color: #efef32
-`;
-
 
 function Servicos(){
     return (
-        <FundoServico>
-        <TodaPg>
+        <>
+        <Header/>
+            <div className={styles.servicos}>
+    
+                <h1>Serviços oferecidos:</h1>
+                <div>
+                    <div>
+                        <img src={Imagem1} 
+                        alt="imagem de um homem, mostrando o corte de cabelo." />
+                        <div>
+                            <TitleImage> Cortes de cabelo masculino </TitleImage>
+                        </div>
+                    </div>
+                </div>
 
-            <h1>Serviços oferecidos:</h1>
-            
-            <AlinhaDiv>
-                
-                <TamanhoDiv>
-                    <SubTitulo> Cortes de cabelo masculino </SubTitulo>
-                    <Img src="./src/assets/corte-cabelo-masculino-trabalho-profissional-02.webp" 
-                    alt="imagem de um homem, mostrando o corte de cabelo." />
-                </TamanhoDiv>
-
-                <TamanhoDiv>
-                    <SubTitulo> Barba </SubTitulo>
-                    <Img src="./src/assets/fazendo barba.jpg" 
+                <div>
+                    <img src={Imagem1} 
                     alt="imagem de um homem fazendo a barba." />
-                </TamanhoDiv>
-            </AlinhaDiv>
+                    <div>
+                        <TitleImage> Barba </TitleImage>
+                    </div>
+                </div>
 
-        </TodaPg>
-        </FundoServico>
+            </div>
+
+        
+        <Footer/>
+        </>
     )
 }
 export default Servicos;

@@ -6,7 +6,7 @@ const TitleSobre = styled.h1`
 `;
 
 
-export default function About(){
+function About(){
     return (
         <div className="pages">
             <div>
@@ -28,3 +28,4 @@ export default function About(){
         </div>
     )
 }
+export default  About;

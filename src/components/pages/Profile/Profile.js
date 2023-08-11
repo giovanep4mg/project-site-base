@@ -25,7 +25,7 @@ const Div2 = styled.div`
 
 
 
-export default function Profile(){
+function Profile(){
     return (
     <TodaPag>
         <Div1>
@@ -61,3 +61,5 @@ export default function Profile(){
     </TodaPag>
     )
 }
+
+export default Profile;

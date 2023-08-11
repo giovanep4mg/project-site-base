@@ -1,0 +1,14 @@
+.home{
+  padding-top: 40px;
+  margin-top: 40px;
+  display: flex;
+  align-items: center;
+}
+
+.home img {
+  display: flex;
+  width: 80%;
+  flex-wrap: wrap;
+  margin: 30px;
+  padding: 2.2rem;
+}

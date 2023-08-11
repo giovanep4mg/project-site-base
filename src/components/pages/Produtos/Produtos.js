@@ -1,53 +1,71 @@
-
 import Header from '../../Header/Header';
 import Footer from '../../Footer/Footer';
 
+import styles from  './Produtos.module.css';
+import styled from 'styled-components';
+
+import Produto1 from './imagens/gel-cera-pierry.webp';
+
+
+const TitleImage=styled.h3`
+   border-radius: 10%;
+   font-family: serif;
+   font-size: 2rem;
+   text-align: center;
+   margin: -60px;
+
+   
+`;
 
 
 
-export default function Produtos(){
+function Produtos(){
     return (
         
         <>
             <Header/>
+            <div className={styles.produtos}>
+         
             <div>
-            <div className='imagem-produtos'>
-                <div className="imagem-prod">
-                    <img src="../src/assets/gel-bozano.jpg"
-                    alt="imagem do produto gel para cabelo masculino da marca Bozano." />
-                    <h3>Gel Bozano</h3>
-                </div>
-                <div className="imagem-prod">
-                    <img src="../src/assets/pomada-fox-laranja.jpg"
-                    alt="imagem do produto pomada para cabelo masculino da marca Fox." />
-                    <h3>Pomada Fox-laranja</h3>
-                </div>
-                <div className="imagem-prod">
-                    <img src="../src/assets/gel-cera-pierry.webp"
-                    alt="imagem do produto gel cera, para cabelo masculino da marca pierry." />
-                    <h3>Gel Cera Pierry</h3>
+                <img src={Produto1}
+                    alt='Foto de gel para cableo masculino.'>
+                </img>
+                <div>
+                    <TitleImage>Gel Cola Pierry Lohan</TitleImage>
                 </div>
             </div>
-            <div className='imagem-produtos'>
-                <div className="imagem-prod">
-                    <img src="../src/assets/gel-cola-fox.webp"
-                    alt="imagem do produto gel cola, para cabelo masculino da marca Fox." />
-                    <h3>Gel Cola Fox</h3>
-                </div>
-                <div className="imagem-prod">
-                    <img src="../src/assets/pomada-fox-laranja.jpg"
-                    alt="imagem do produto pomada, para cabelo masculino da marca Fox." />
-                    <h3>Pomada Fox-laranja</h3>
-                </div>
-                <div className="imagem-prod">
-                    <img src="../src/assets/gel-bozano.jpg"
-                    alt="imagem do produto gel para cabelo masculino da marca Bonzano." />
-                    <h3>Gel Bozano</h3>
+            <div>
+                <img src={Produto1}
+                    alt='Foto de gel para cableo masculino.'>
+                </img>
+                <div>
+                    <TitleImage>Gel Cola Pierry Lohan</TitleImage>
                 </div>
             </div>
             </div>
+            <div className={styles.produtos}>
+            <div>
+                <img src={Produto1}
+                    alt='Foto de gel para cableo masculino.'>
+                </img>
+                <div>
+                    <TitleImage>Gel Cola Pierry Lohan</TitleImage>
+                </div>
+            </div>
+            <div>
+                <img src={Produto1}
+                    alt='Foto de gel para cableo masculino.'>
+                </img>
+                <div>
+                    <TitleImage>Gel Cola Pierry Lohan</TitleImage>
+                </div>
+            </div>
+
+         
+       </div>
 
             <Footer/>
         </>
     )
 }
+export default Produtos;
