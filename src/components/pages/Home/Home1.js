@@ -4,6 +4,7 @@ import Header from '../../Header/Header';
 import styles from './Home.module.css';
 import styled from 'styled-components';
 
+import ImageFundo from './imagens/barbearia3.png';
 import ImagemServicos from './imagens/corte-cabelo-masculino-trabalho-profissional-02.webp';
 import ImagemProdutos from './imagens/gel-cera-pierry.webp';
 import ImagemContato from './imagens/map-1272165_1280.png';
@@ -27,12 +28,18 @@ const TitleImage=styled.h3`
    }
 `;
 
+const ImageF= styled.body`
+   background-image: url(${ImageFundo});
+   background-size: 100%;
+   background-attachment: fixed;
+`;
 
 
 function Home1(){
   return(
     <>
         <Header/>
+        <ImageF>
           <section className={styles.home}>
          
             <div>
@@ -73,7 +80,7 @@ function Home1(){
             </div>
 
           </section>
-            
+          </ImageF>      
 
         
     </>
