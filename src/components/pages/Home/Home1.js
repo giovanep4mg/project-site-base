@@ -20,19 +20,19 @@ const TitleImage=styled.h3`
    margin-bottom: 60px;
    padding-bottom: 50px;
    margin-right: 10%;
-   color: blue;
+   color: #052346; 
+   background-color: #d2d86266;
 
    &:hover{
       font-size: 6.5rem;
-      color: black;
+      color: #d22ffe;
    }
 `;
 
 const ImageF= styled.body`
    background-image: url(${ImageFundo});
-   background-size: 100%;
+   background-size: 150%;
    background-attachment: fixed;
-   background-color: rgba(255, 255, 255, 0.5);
 `;
 
 
