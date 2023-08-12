@@ -8,7 +8,7 @@ function Navegacao(){
             <h1>Salão do Nego</h1>
         </Link>
         <ul>
-            <CustomLink to='../pages/Servicos/Servicos.js'>Serviços</CustomLink>
+            <CustomLink to='./servicos'>Serviços</CustomLink>
             <CustomLink to='/produtos'>Produtos</CustomLink>
             <CustomLink to='/profile'>Contato</CustomLink>
             <CustomLink to='/about'>Sobre</CustomLink>

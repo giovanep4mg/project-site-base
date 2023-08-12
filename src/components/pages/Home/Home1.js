@@ -1,4 +1,4 @@
-import Footer from '../../Footer/Footer';
+
 import Header from '../../Header/Header';
 
 import styles from './Home.module.css';
@@ -75,7 +75,7 @@ function Home1(){
           </section>
             
 
-        <Footer/>
+        
     </>
   );
 }
