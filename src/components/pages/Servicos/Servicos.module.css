@@ -4,11 +4,23 @@
     display: flex;
     align-items: center;
 }
-  
+
+.servicos h1{
+    display: flex;
+}
+
 .servicos img {
     display: flex;
-    width: 60%;
+    width: 70%;
     flex-wrap: wrap;
     margin: 30px;
-    padding: 2.2rem;
+    padding: 1.2rem;
+    margin-left: 103px;
+}
+
+.servicos img:hover {
+    width: 90%;
+    margin: 0px;
+    padding: 1.2rem;
+    margin-left: 53px;
 }

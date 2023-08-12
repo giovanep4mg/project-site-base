@@ -14,7 +14,7 @@ function AppRoutes(){
                 <Route path="/home" element={<Home1/>}></Route>
                 <Route path="/servicos" element={<Servicos/>}></Route>
                 <Route path="/produtos" element={<Produtos/>}></Route>
-                <Route path='/contato' element={<Profile/>}></Route>
+                <Route path='/profile' element={<Profile/>}></Route>
                 <Route path='/sobre' element={<About/>}></Route>
             </Routes>
         </BrowserRouter>

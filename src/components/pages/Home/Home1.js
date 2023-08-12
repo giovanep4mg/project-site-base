@@ -21,11 +21,13 @@ const TitleImage=styled.h3`
    }
 `;
 
+
+
 function Home1(){
   return(
     <>
         <Header/>
-          <div className={styles.home}>
+          <section className={styles.home}>
          
             <div>
                <img src={ImagemServicos}
@@ -44,8 +46,8 @@ function Home1(){
                   <TitleImage>Produtos</TitleImage>
                </div>
             </div>
-         </div>
-         <div className={styles.home}>
+         </section>
+         <section className={styles.home}>
             <div>
                <img src={ImagemContato}
                   alt='Foto de um homem com o cabelo cortado.'>
@@ -64,7 +66,7 @@ function Home1(){
                </div>
             </div>
 
-          </div>
+          </section>
             
 
         <Footer/>

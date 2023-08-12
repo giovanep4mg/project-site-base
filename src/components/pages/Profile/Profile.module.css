@@ -1,0 +1,14 @@
+
+.profile{
+    padding-top: 70px;
+    margin-top: 50px;
+    display: inline-flexbox;
+    flex-direction: column;
+    margin-left: 70px;
+    margin-right: 60px;
+    margin-bottom: 35px;
+}
+
+.profile1{
+    display: inline-flex;
+}
