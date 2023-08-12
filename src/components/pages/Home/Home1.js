@@ -39,37 +39,37 @@ function Home1(){
                <Link to={'../Servicos'}>
                   <img src={ImagemServicos} alt='Foto de um homem com o cabelo cortado.'></img>
                   <div>
-                  <TitleImage>Serviços</TitleImage>
-               </div>
+                     <TitleImage>Serviços</TitleImage>
+                  </div>
                </Link>   
             </div>
 
             <div>
-               <img src={ImagemProdutos}
-                  alt='Foto de vários potes de gel para cabelo masculino marca piery.'>
-               </img>
-               <div>
-                  <TitleImage>Produtos</TitleImage>
-               </div>
+               <Link to={'../Produtos'}>
+                  <img src={ImagemProdutos} alt='Foto de vários potes de gel para cabelo masculino marca piery.'></img>
+                  <div>
+                     <TitleImage>Produtos</TitleImage>
+                  </div>
+               </Link>
             </div>
          </section>
          <section className={styles.home}>
             <div>
-               <img src={ImagemContato}
-                  alt='Foto de um homem com o cabelo cortado.'>
-               </img>
-               <div>
-                  <TitleImage>Contatos</TitleImage>
-               </div>
+               <Link to={'../Profile'}>
+                  <img src={ImagemContato} alt='Foto de um homem com o cabelo cortado.'></img>
+                  <div>
+                     <TitleImage>Contato e Endereço</TitleImage>
+                  </div>
+               </Link>
             </div>
 
             <div>
-               <img src={ImagemSobre}
-                  alt='Foto de um homem com o cabelo cortado.'>
-               </img>
-               <div>
-                  <TitleImage>Sobre</TitleImage>
-               </div>
+               <Link to={'../About'}>
+                  <img src={ImagemSobre} alt='Foto de um homem com o cabelo cortado.'></img>
+                  <div>
+                     <TitleImage>Sobre</TitleImage>
+                  </div>
+               </Link>
             </div>
 
           </section>

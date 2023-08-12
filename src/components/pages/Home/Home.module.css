@@ -1,17 +1,19 @@
 
 .home{
-  padding-top: 40px;
-  margin-top: 40px;
+  padding-top: 20px;
+  margin-top: 10px;
   display: flex;
   align-items: center;
+  padding-inline: 150px;
 }
 
 .home img {
   display: flex;
-  width: 60%;
+  width: 70%;
   flex-wrap: wrap;
   margin: 30px;
   padding: 2.2rem;
+  margin-top: 30px;
 }
 
 .home div{
