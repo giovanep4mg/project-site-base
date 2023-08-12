@@ -8,16 +8,22 @@ import ImagemServicos from './imagens/corte-cabelo-masculino-trabalho-profission
 import ImagemProdutos from './imagens/gel-cera-pierry.webp';
 import ImagemContato from './imagens/map-1272165_1280.png';
 import ImagemSobre from './imagens/833961_people_512x512.png';
+import { Link } from 'react-router-dom';
 
 const TitleImage=styled.h3`
    border-radius: 10%;
    font-family: serif;
    font-size: 4.5rem;
    text-align: center;
-   margin: -60px;
+   margin: -80px;
+   margin-bottom: 60px;
+   padding-bottom: 50px;
+   margin-right: 10%;
+   color: blue;
 
-   &{
-      font-size: 5.5rem;
+   &:hover{
+      font-size: 6.5rem;
+      color: black;
    }
 `;
 
@@ -30,12 +36,12 @@ function Home1(){
           <section className={styles.home}>
          
             <div>
-               <img src={ImagemServicos}
-                  alt='Foto de um homem com o cabelo cortado.'>
-               </img>
-               <div>
+               <Link to={'../Servicos'}>
+                  <img src={ImagemServicos} alt='Foto de um homem com o cabelo cortado.'></img>
+                  <div>
                   <TitleImage>Serviços</TitleImage>
                </div>
+               </Link>   
             </div>
 
             <div>
