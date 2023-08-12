@@ -32,6 +32,7 @@ const ImageF= styled.body`
    background-image: url(${ImageFundo});
    background-size: 100%;
    background-attachment: fixed;
+   background-color: rgba(255, 255, 255, 0.5);
 `;
 
 
