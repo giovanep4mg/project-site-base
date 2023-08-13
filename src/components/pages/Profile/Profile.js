@@ -10,14 +10,13 @@ import { Link } from 'react-router-dom';
 
 const Title = styled.h1`
     font-size: 3rem;
-    margin-top: -10px;
-    margin-left: 103px;
+    margin: 42px;
 `;
 
 const Title2 = styled.h1`
     font-size: 60px;
-    margin-top: 100px;
-    margin-left: 87px;
+    margin: 91px;
+    padding: 7px;
 `;
 
 const SubTitle = styled.h3`
@@ -29,9 +28,9 @@ const SubTitle = styled.h3`
 
 const MapUsar = styled.section`
     border: 2px solid black;
-    margin-top: -40px;
+    margin-top: -98px;
     margin-bottom: 30px;
-    margin-left: 30px;
+    margin-left: 90px;
 `;
 
 const DivDisplay= styled.section`

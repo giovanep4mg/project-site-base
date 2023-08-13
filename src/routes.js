@@ -4,6 +4,7 @@ import Produtos from './components/pages/Produtos/Produtos';
 import Servicos from './components/pages/Servicos/Servicos';
 import Profile from './components/pages/Profile/Profile';
 import About from './components/pages/About/About';
+import PageNotFound from './components/pages/PageNotFound';
 
 
 function AppRoutes(){
@@ -16,6 +17,7 @@ function AppRoutes(){
                 <Route path="/produtos" element={<Produtos/>}></Route>
                 <Route path='/profile' element={<Profile/>}></Route>
                 <Route path='/about' element={<About/>}></Route>
+                <Route path='*' element={<PageNotFound/>}></Route>
             </Routes>
         </BrowserRouter>
     )
