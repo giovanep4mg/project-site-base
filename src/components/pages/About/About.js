@@ -7,12 +7,22 @@ const TitleSobre = styled.h1`
     color: #9c330ce6;
     text-decoration: underline;
     font-size: 5rem;
+
+    @media (max-width: 320px){
+        font-size: 7.5rem;
+        margin-left: -70px;
+    }
 `;
 
 const Description = styled.h3`
     color: #1b0603d6;
     text-decoration: none;
     font-size: 2.5rem;
+
+    @media (max-width: 320px){
+        font-family: inherit;
+        font-size: 5.0rem;
+    }
 `;
 
 

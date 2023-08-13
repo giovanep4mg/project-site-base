@@ -11,12 +11,22 @@ import { Link } from 'react-router-dom';
 const Title = styled.h1`
     font-size: 3rem;
     margin: 42px;
+
+    @media (max-width: 320px){
+        font-size: 6rem;
+        margin: 45px;
+    }
 `;
+
 
 const Title2 = styled.h1`
     font-size: 60px;
     margin: 91px;
     padding: 7px;
+
+    @media (max-width: 320px){
+        font-size: 115px;
+    }
 `;
 
 const SubTitle = styled.h3`
@@ -24,6 +34,11 @@ const SubTitle = styled.h3`
     margin-top: -28px;
     margin-left: 0px;
     color: #0a4d05f2;
+
+    @media (max-width: 320px){
+        font-size: 56px;
+        margin-left: -76px;
+    }    
 `;
 
 const MapUsar = styled.section`
@@ -31,10 +46,23 @@ const MapUsar = styled.section`
     margin-top: -98px;
     margin-bottom: 30px;
     margin-left: 90px;
-`;
 
+    @media (max-width: 320px){
+        border: 2px solid black;
+        margin-top: -98px;
+        margin-bottom: 65px;
+        margin-left: 35px;
+        width: 93%;
+    }
+`;
+    
 const DivDisplay= styled.section`
     display: flex;
+
+    @media (max-width: 320px){
+        display: flex;
+        flex-direction: column;
+    }
 `;
 
 function Profile(){

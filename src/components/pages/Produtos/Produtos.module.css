@@ -14,3 +14,19 @@
     margin: 30px;
     padding: 2.2rem;
 }
+
+
+@media (max-width: 320px){
+    .produtos{
+        padding-top: 80px;
+        margin-left: 68px;
+        display: block;
+    }
+    .produtos img{
+        padding-top: 38px;
+        flex-direction: column;
+        width: 80%;
+        margin-inline: 1.5rem;
+    }
+
+}

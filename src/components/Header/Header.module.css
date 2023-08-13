@@ -29,22 +29,28 @@
     padding-inline: 1.5rem;
 }
 
-@media (max-width: 480px){
+
+
+@media (max-width: 320px){
+    html{
+        width: 275%;
+        height: 260%;
+        padding-top: 119px;
+        margin-top: 35px;
+    }
+    .header{
+        font-size: 5.5rem;
+        display: block;
+    }
     .header span {
-        font-size: 1.5rem;
+        font-size: 2.5rem;
+    }
+    .header nav{
+        font-size: 2.0rem;
     }
     .header a {
-        font-size: 0.95rem;
-        padding-inline: 0.5rem;
+        font-size: 1.8rem;
+        padding-inline: 17px;
     }
 }
 
-@media (max-width: 380px){
-    .header span {
-        font-size: 1rem;
-        padding: 0rem;
-    }
-    .header a {
-        font-size: 0.75rem;
-    }
-}

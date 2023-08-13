@@ -4,7 +4,7 @@ import styles from './Footer.module.css';
 function Footer () {
     return(
         <footer className={styles.footer}>
-            <h2>Slão do Nego &copy; Desenvolvido por Giovani Teodoro Martins</h2>
+            <h2>Salão do Nego &copy; Desenvolvido por Giovani Teodoro Martins</h2>
         </footer>
     )
 }
