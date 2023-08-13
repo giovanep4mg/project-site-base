@@ -1,21 +1,22 @@
-
-.home{
-  padding-top: 20px;
-  margin-top: 10px;
-  display: flex;
-  align-items: center;
-  margin-left: 101px;
+/* Home.module.css */
+.home {
+    padding-top: 20px;
+    margin-top: 10px;
+    display: flex;
+    margin-left: 101px;
+    align-items: center;
 }
 
 .home img {
-  display: flex;
-  width: 60%;
-  flex-wrap: wrap;
-  margin: 30px;
-  padding: 2.2rem;
-  margin-top: 30px;
+  width: 50%;
 }
 
-.home div{
-  display: block;
+.home div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin: 30px;
+  padding: 2.2rem;
+ 
 }

@@ -29,49 +29,59 @@ const TitleImage=styled.h3`
 `;
 
 
+const FlexContainer = styled.section`
+   display: flex;
+   margin-top: -18rem;
+    margin-left: -15px;
+`;
+
+const FlexItem = styled.div`
+   display: flex;
+`;
+
 function Home1(){
   return(
    <>
       <Header/>
       <section className={styles.home}>
-         <div>
+         <FlexItem>
             <Link to={'../Servicos'}>
                <img src={ImagemServicos} alt='Foto de um homem com o cabelo cortado.'></img>
                <div>
                   <TitleImage>Serviços</TitleImage>
                </div>
             </Link>   
-            </div>
+         </FlexItem>
 
-            <div>
+            <FlexItem>
                <Link to={'../Produtos'}>
                   <img src={ImagemProdutos} alt='Foto de vários potes de gel para cabelo masculino marca piery.'></img>
                   <div>
                      <TitleImage>Produtos</TitleImage>
                   </div>
                </Link>
-            </div>
-         </section>
-         <section className={styles.home}>
-            <div>
+            </FlexItem>
+      </section>
+      <FlexContainer className={styles.home}>
+            <FlexItem>
                <Link to={'../Profile'}>
                   <img src={ImagemContato} alt='Foto de um homem com o cabelo cortado.'></img>
                   <div>
                      <TitleImage>Contato e Endereço</TitleImage>
                   </div>
                </Link>
-            </div>
+            </FlexItem>
 
-            <div>
+            <FlexItem>
                <Link to={'../About'}>
                   <img src={ImagemSobre} alt='Foto de um homem com o cabelo cortado.'></img>
                   <div>
                      <TitleImage>Sobre</TitleImage>
                   </div>
                </Link>
-            </div>
+            </FlexItem>
 
-          </section>
+          </FlexContainer>
       <Footer/>
         
     </>

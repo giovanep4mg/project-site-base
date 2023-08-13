@@ -20,7 +20,22 @@ const TitleImage=styled.h3`
    
 `;
 
-
+const DivS =styled.div`
+    margin-top: 111px;
+    display: flex;
+    width: 60%;
+    align-items: center;
+    img{
+        width: 75%;
+        margin-left: 130px;
+    }
+    h3{
+        margin-right: -174px;
+        margin-top: 0px;
+        margin-bottom: 65px;
+        padding-bottom: 40px;
+    }
+`;
 
 function Produtos(){
     return (
@@ -47,7 +62,7 @@ function Produtos(){
                 </div>
             </div>
             </div>
-            <div className={styles.produtos}>
+            <DivS>
             <div>
                 <img src={Produto3}
                     alt='Foto de gel para cabelo masculino, da marca Fox.'>
@@ -66,7 +81,7 @@ function Produtos(){
             </div>
 
          
-            </div>
+            </DivS>
            
         <Footer/> 
         </>

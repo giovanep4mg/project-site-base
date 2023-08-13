@@ -49,9 +49,9 @@ function Profile(){
                
                     <SubTitle>
                         <p>
-                            Cidade: Passa-Quatro, Minas Gerais.
+                            Cidade: Passa-Quatro, Minas Gerais. <br/>
                             Bairro: Santa Terezinha, s/n. <br/>
-                            Rua: Dr. Daniel de Carvalho.
+                            Rua: Dr. Daniel de Carvalho. <br/>
                         </p>
                         <p>
                             Telefone para contato: <br/>
