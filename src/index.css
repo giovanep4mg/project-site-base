@@ -6,6 +6,9 @@
 
 body {
   font-family: 'Poppins', sans-serif;
-   display: flexbox;
+  
 }
 
+div{
+  display: block;
+}
