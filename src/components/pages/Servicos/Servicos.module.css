@@ -1,8 +1,8 @@
 .servicos{
     padding-top: 40px;
     margin-top: 40px;
-    display: flex;
     align-items: center;
+    padding-bottom: 30px;
 }
 
 .servicos h1{
@@ -16,11 +16,6 @@
     margin: 30px;
     padding: 1.2rem;
     margin-left: 103px;
+    border: 2px solid black;
 }
 
-.servicos img:hover {
-    width: 90%;
-    margin: 0px;
-    padding: 1.2rem;
-    margin-left: 53px;
-}

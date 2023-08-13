@@ -14,3 +14,7 @@
     display: inline-flex;
 }
 
+.profile span{
+    color: rgb(4, 4, 10);
+    font-size: 3rem;
+}

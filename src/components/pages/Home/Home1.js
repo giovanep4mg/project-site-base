@@ -4,52 +4,43 @@ import Header from '../../Header/Header';
 import styles from './Home.module.css';
 import styled from 'styled-components';
 
-import ImageFundo from './imagens/barbearia3.png';
 import ImagemServicos from './imagens/corte-cabelo-masculino-trabalho-profissional-02.webp';
 import ImagemProdutos from './imagens/gel-cera-pierry.webp';
 import ImagemContato from './imagens/map-1272165_1280.png';
 import ImagemSobre from './imagens/833961_people_512x512.png';
 import { Link } from 'react-router-dom';
+import Footer from '../../Footer/Footer';
 
 const TitleImage=styled.h3`
    border-radius: 10%;
    font-family: serif;
-   font-size: 4.5rem;
+   font-size: 4.0rem;
    text-align: center;
    margin: -80px;
    margin-bottom: 60px;
    padding-bottom: 50px;
    margin-right: 10%;
    color: #052346; 
-   background-color: #d2d86266;
 
    &:hover{
-      font-size: 6.5rem;
+      font-size: 5.5rem;
       color: #d22ffe;
    }
-`;
-
-const ImageF= styled.body`
-   background-image: url(${ImageFundo});
-   background-size: 150%;
-   background-attachment: fixed;
 `;
 
 
 function Home1(){
   return(
-    <>
-        <Header/>
-        <ImageF>
-          <section className={styles.home}>
-         
-            <div>
-               <Link to={'../Servicos'}>
-                  <img src={ImagemServicos} alt='Foto de um homem com o cabelo cortado.'></img>
-                  <div>
-                     <TitleImage>Serviços</TitleImage>
-                  </div>
-               </Link>   
+   <>
+      <Header/>
+      <section className={styles.home}>
+         <div>
+            <Link to={'../Servicos'}>
+               <img src={ImagemServicos} alt='Foto de um homem com o cabelo cortado.'></img>
+               <div>
+                  <TitleImage>Serviços</TitleImage>
+               </div>
+            </Link>   
             </div>
 
             <div>
@@ -81,8 +72,7 @@ function Home1(){
             </div>
 
           </section>
-          </ImageF>      
-
+      <Footer/>
         
     </>
   );

@@ -4,13 +4,14 @@ import Footer from '../../Footer/Footer';
 import styles from  './Servicos.module.css';
 import styled from 'styled-components';
 
-import Imagem1 from './imagens/corte-cabelo-masculino-trabalho-profissional-02.webp';
+import Imagem1 from './imagens/corte-de-cabelo-masculino.jpg';
+import Imagem2 from './imagens/homem-em-um-salao-de-barbearia-fazendo-o-corte-de-cabelo-e-barba.jpg'
 
 const Title=styled.h1`
     padding-top: 70px;
     margin-top: 30;
     display: flex;
-    font-size: 4rem;
+    font-size: 5rem;
     margin: 40px;
     text-decoration: none;
 `;
@@ -18,7 +19,7 @@ const Title=styled.h1`
 const TitleImage=styled.h3`
    border-radius: 10%;
    font-family: serif;
-   font-size: 2rem;
+   font-size: 3rem;
    text-align: center;
    margin: -15px;
 
@@ -42,16 +43,16 @@ function Servicos(){
                     </div>
                     <div>
                     <div>
-                            <TitleImage> Cortes de cabelo masculino </TitleImage>
+                            <TitleImage> Barba </TitleImage>
                         </div>
                         <div>
-                            <img src={Imagem1} alt="imagem de um homem, mostrando o corte de cabelo." />
+                            <img src={Imagem2} alt="imagem de um homem, mostrando o corte de cabelo." />
                         </div>    
                     </div>
                 </div>
 
             </div>
-
+        <Footer/>
         </>
     )
 }
