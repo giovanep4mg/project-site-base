@@ -22,70 +22,74 @@ const TitleImage=styled.h3`
    margin-right: 10%;
    color: #052346; 
 
+   @media (max-width: 320px){
+      font-size: 46px;
+      padding-right: 100px;
+      padding: 0px;
+      margin: 0px;
+      margin-right: 30px;
+
+    &:hover{
+      font-size: 43px;
+      color: #d22ffe;
+   }
+   }
+
    &:hover{
-      font-size: 5.5rem;
+      font-size: 40px;
       color: #d22ffe;
    }
 `;
 
 
-const FlexContainer = styled.section`
-   display: flex;
-   margin-top: -18rem;
-    margin-left: -15px;
-`;
-
-const FlexItem = styled.div`
-   display: flex;
-`;
 
 function Home1(){
-  return(
+   return(
    <>
-      <Header/>
+   <Header/>
       <section className={styles.home}>
-         <FlexItem>
+         <div>
             <Link to={'../Servicos'}>
                <img src={ImagemServicos} alt='Foto de um homem com o cabelo cortado.'></img>
-               <div>
+               <span>
                   <TitleImage>Serviços</TitleImage>
-               </div>
+               </span>
             </Link>   
-         </FlexItem>
+         </div>
 
-            <FlexItem>
-               <Link to={'../Produtos'}>
-                  <img src={ImagemProdutos} alt='Foto de vários potes de gel para cabelo masculino marca piery.'></img>
-                  <div>
-                     <TitleImage>Produtos</TitleImage>
-                  </div>
-               </Link>
-            </FlexItem>
+         <div>
+            <Link to={'../Produtos'}>
+               <img src={ImagemProdutos} alt='Foto de vários potes de gel para cabelo masculino marca piery.'></img>
+               <span>
+                  <TitleImage>Produtos</TitleImage>
+               </span>
+            </Link>
+         </div>
       </section>
-      <FlexContainer className={styles.home}>
-            <FlexItem>
-               <Link to={'../Profile'}>
-                  <img src={ImagemContato} alt='Foto de um homem com o cabelo cortado.'></img>
-                  <div>
-                     <TitleImage>Contato e Endereço</TitleImage>
-                  </div>
-               </Link>
-            </FlexItem>
+      <section className={styles.home1}>
+         <div>
+            <Link to={'../Profile'}>
+               <img src={ImagemContato} alt='Foto de um homem com o cabelo cortado.'></img>
+               <span>
+                  <TitleImage>Contato e Endereço</TitleImage>
+               </span>
+            </Link>
+         </div>
 
-            <FlexItem>
-               <Link to={'../About'}>
-                  <img src={ImagemSobre} alt='Foto de um homem com o cabelo cortado.'></img>
-                  <div>
-                     <TitleImage>Sobre</TitleImage>
-                  </div>
-               </Link>
-            </FlexItem>
+         <div>
+            <Link to={'../About'}>
+               <img src={ImagemSobre} alt='Foto de um homem com o cabelo cortado.'></img>
+               <span>
+                  <TitleImage>Sobre</TitleImage>
+               </span>
+            </Link>
+         </div>
 
-          </FlexContainer>
-      <Footer/>
+      </section>
+   <Footer/>
         
-    </>
-  );
+   </>
+   );
 }
 export default Home1;
 

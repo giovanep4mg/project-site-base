@@ -16,17 +16,12 @@
 
 
 @media (max-width: 320px){
-    html{
-        width: 275%;
-        height: 260%;
-        padding-top: 119px;
-        margin-top: 35px;
-    }
+    
     .profile{
-        padding-top: 40px;
-        margin-top: 50px;
-        margin-left: 130px;
-        text-decoration: none;
+        padding-top: 0px;
+    margin-top: 50px;
+    margin-left: 80px;
+    text-decoration: none;
     }
     
     .profile1{
@@ -34,8 +29,8 @@
     }
     
     .profile span{
-        color: rgb(4, 4, 10);
-        font-size: 5rem;
+        color: rgb(10 35 56);
+        font-size: 35px;
     }
     
     

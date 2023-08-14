@@ -32,25 +32,22 @@
 
 
 @media (max-width: 320px){
-    html{
-        width: 275%;
-        height: 260%;
-        padding-top: 119px;
-        margin-top: 35px;
-    }
+    
     .header{
-        font-size: 5.5rem;
+        font-size: 40px;
         display: block;
+        width: 100%;
     }
     .header span {
-        font-size: 2.5rem;
+        font-size: 37px;
     }
     .header nav{
-        font-size: 2.0rem;
+        font-size: 1.5rem;
     }
     .header a {
-        font-size: 1.8rem;
-        padding-inline: 17px;
+        font-size: 20px;
+        padding-inline: 0px;
+        display: block;
     }
 }
 

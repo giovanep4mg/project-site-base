@@ -13,8 +13,8 @@ const Title = styled.h1`
     margin: 42px;
 
     @media (max-width: 320px){
-        font-size: 6rem;
-        margin: 45px;
+        font-size: 40px;
+        margin-left: -30px;
     }
 `;
 
@@ -25,7 +25,11 @@ const Title2 = styled.h1`
     padding: 7px;
 
     @media (max-width: 320px){
-        font-size: 115px;
+        font-size: 37px;
+        text-align: center;
+        margin-left: -16px;
+        margin-top: 0px;
+        margin-bottom: 120px;
     }
 `;
 
@@ -36,8 +40,8 @@ const SubTitle = styled.h3`
     color: #0a4d05f2;
 
     @media (max-width: 320px){
-        font-size: 56px;
-        margin-left: -76px;
+        font-size: 25px;
+        margin-left: -70px;
     }    
 `;
 
@@ -49,10 +53,9 @@ const MapUsar = styled.section`
 
     @media (max-width: 320px){
         border: 2px solid black;
-        margin-top: -98px;
+        margin-top: -107px;
         margin-bottom: 65px;
-        margin-left: 35px;
-        width: 93%;
+        margin-left: 0px;
     }
 `;
     

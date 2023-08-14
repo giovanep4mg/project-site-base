@@ -24,21 +24,30 @@
 
 @media (max-width: 320px){
   .home{
-    padding-top: 130px;
-    margin-top: 40px;
-    margin-left: 65px;
+    margin-top: 20px;
+    margin-left: 0px;
     align-items: center;
+    display: block;
+    width: 100%;
+    
   }
-  .home img {
-    width: 122%;
-    margin-left: -75px;
+  .home div img {
+    width: 135%;
+    margin-left: -42px;
   }
-  .home div{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  
+  .home span{
     text-align: center;
-    margin: 30px;
-    padding: 2.2rem;
   }
+
+  .home1{
+    padding-bottom: 100px;
+    
+  }
+  .home1 div img {
+    width: 80%;
+    margin-left: 25px;
+  }
+  
+  
 }

@@ -8,11 +8,10 @@ import Imagem1 from './imagens/corte-de-cabelo-masculino.jpg';
 import Imagem2 from './imagens/homem-em-um-salao-de-barbearia-fazendo-o-corte-de-cabelo-e-barba.jpg'
 
 const Title=styled.h1`
-    padding-top: 70px;
+    padding-top: 50px;
     margin-top: 30;
-    display: flex;
-    font-size: 5rem;
-    margin: 40px;
+    font-size: 50px;
+    margin: 25px;
     text-decoration: none;
 `;
 
@@ -22,6 +21,11 @@ const TitleImage=styled.h3`
    font-size: 3rem;
    text-align: center;
    margin: -15px;
+
+   @media (max-width: 320px){
+    font-size: 30px;
+    text-align: center;
+   }
 
 `;
 

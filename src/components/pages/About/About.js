@@ -9,8 +9,9 @@ const TitleSobre = styled.h1`
     font-size: 5rem;
 
     @media (max-width: 320px){
-        font-size: 7.5rem;
-        margin-left: -70px;
+        font-size: 20px;
+        margin-left: -30px;
+        padding-top: 20px;
     }
 `;
 
@@ -21,7 +22,9 @@ const Description = styled.h3`
 
     @media (max-width: 320px){
         font-family: inherit;
-        font-size: 5.0rem;
+        font-size: 22px;
+        margin-top: 15px;
+        margin-bottom: 20px;
     }
 `;
 

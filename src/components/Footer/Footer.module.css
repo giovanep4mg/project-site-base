@@ -22,10 +22,10 @@
     .footer{
         font-size: 5.5rem;
         display: block;
+        width: 100%;
     }
     .footer h2{
-        font-size: 1.7rem;
-        height: 150px;
+        font-size: 14px;
         margin-left: 25px;
     }
     

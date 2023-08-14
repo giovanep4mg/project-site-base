@@ -19,3 +19,24 @@
     border: 2px solid black;
 }
 
+
+@media (max-width: 320px){
+    
+    .servicos{
+        padding-bottom: 60px;
+    }
+    
+    .servicos h1{
+        display: flex;
+    }
+    
+    .servicos img {
+        width: 68%;
+        margin: 30px;
+        padding: 0.2rem;
+        margin-left: 50px;
+        border: 2px solid black;
+    }
+    
+    
+}

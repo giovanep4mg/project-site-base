@@ -4,6 +4,7 @@ import styles from './Header.module.css';
 
 function Header () {
     return(
+        <>
         <header className={styles.header}>
             <Link to="/">
                 <span>Salão do Nego</span>
@@ -16,6 +17,7 @@ function Header () {
                 <Link to="/about">Sobre</Link>
             </nav>
         </header>
+        </>
     )
 }
     

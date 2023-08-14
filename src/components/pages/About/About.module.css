@@ -1,14 +1,16 @@
 .about{
-    padding-top: 70px;
-    margin-top: 50px;
+    padding-top: 155px;
+    margin-top: 55px;
     text-align: center;
     text-decoration: none;
 }
 
 
 @media (max-width: 320px){
-    
+    .about{
+        padding-top: 30px;
+    }
     .about p {
         width: 90%;
     }
-}
+}    

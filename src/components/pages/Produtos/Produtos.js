@@ -18,7 +18,7 @@ const TitleImage=styled.h3`
     margin-right: 35px;
 
     @media (max-width: 320px){
-        font-size: 5rem;
+        font-size: 2.5rem;
     }
 
    
@@ -55,6 +55,7 @@ const DivS =styled.div`
             margin-right: 0;
             margin-bottom: 20px;
             padding-bottom: 20px;
+            font-size: 28px;
         }
     }
 `;
