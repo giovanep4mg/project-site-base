@@ -1,21 +1,20 @@
+
+
 .servicos{
-    padding-top: 40px;
-    margin-top: 40px;
     align-items: center;
-    padding-bottom: 30px;
+    padding-bottom: 35px;
+    display: inline-flex;
 }
 
-.servicos h1{
-    display: flex;
-}
+
 
 .servicos img {
     display: flex;
-    width: 70%;
+    width: 71%;
     flex-wrap: wrap;
     margin: 30px;
     padding: 1.2rem;
-    margin-left: 103px;
+    margin-left: 71px;
     border: 2px solid black;
 }
 

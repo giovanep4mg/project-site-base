@@ -1,5 +1,4 @@
-
-import Header from '../../Header/Header';
+import Layout from '../../Layout/layout';
 
 import styles from './Home.module.css';
 import styled from 'styled-components';
@@ -9,18 +8,18 @@ import ImagemProdutos from './imagens/gel-cera-pierry.webp';
 import ImagemContato from './imagens/map-1272165_1280.png';
 import ImagemSobre from './imagens/833961_people_512x512.png';
 import { Link } from 'react-router-dom';
-import Footer from '../../Footer/Footer';
+
 
 const TitleImage=styled.h3`
    border-radius: 10%;
-   font-family: serif;
-   font-size: 4.0rem;
-   text-align: center;
-   margin: -80px;
-   margin-bottom: 60px;
-   padding-bottom: 50px;
-   margin-right: 10%;
-   color: #052346; 
+    font-family: serif;
+    font-size: 4.0rem;
+    text-align: center;
+    margin: 0px;
+    margin-bottom: 60px;
+    padding-bottom: 50px;
+    margin-right: 10%;
+    color: #052346;
 
    @media (max-width: 320px){
       font-size: 46px;
@@ -46,7 +45,7 @@ const TitleImage=styled.h3`
 function Home1(){
    return(
    <>
-   <Header/>
+   <Layout>
       <section className={styles.home}>
          <div>
             <Link to={'../Servicos'}>
@@ -86,7 +85,7 @@ function Home1(){
          </div>
 
       </section>
-   <Footer/>
+   </Layout>
         
    </>
    );

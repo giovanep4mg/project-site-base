@@ -1,4 +1,4 @@
-import Header from '../../Header/Header';
+import Layout from '../../Layout/layout';
 
 import styles from './About.module.css';
 import styled from 'styled-components';
@@ -6,7 +6,7 @@ import styled from 'styled-components';
 const TitleSobre = styled.h1`
     color: #9c330ce6;
     text-decoration: underline;
-    font-size: 5rem;
+    font-size: 4.3rem;
 
     @media (max-width: 320px){
         font-size: 20px;
@@ -18,7 +18,7 @@ const TitleSobre = styled.h1`
 const Description = styled.h3`
     color: #1b0603d6;
     text-decoration: none;
-    font-size: 2.5rem;
+    font-size: 2rem;
 
     @media (max-width: 320px){
         font-family: inherit;
@@ -31,8 +31,7 @@ const Description = styled.h3`
 
 function About(){
     return (
-        <>
-        <Header/>
+        <Layout>
         <div className={styles.about}>
             <div>
                 <TitleSobre>Informações sobre o site</TitleSobre>
@@ -52,7 +51,7 @@ function About(){
             </div>
         </div>
 
-        </>
+        </Layout>
     );
 }
 export default  About;

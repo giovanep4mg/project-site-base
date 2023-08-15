@@ -1,18 +1,16 @@
-import Header from '../../Header/Header';
-import Footer from '../../Footer/Footer';
+import Layout from '../../Layout/layout';
 
 import styles from  './Servicos.module.css';
 import styled from 'styled-components';
 
 import Imagem1 from './imagens/corte-de-cabelo-masculino.jpg';
-import Imagem2 from './imagens/homem-em-um-salao-de-barbearia-fazendo-o-corte-de-cabelo-e-barba.jpg'
+import Imagem2 from './imagens/jovem-barbudo-fazendo-a-barba-com-uma-lamina-de-barbear-por-cabeleireiro-em-barbearia_1153-9488.avif'
 
 const Title=styled.h1`
-    padding-top: 50px;
-    margin-top: 30;
-    font-size: 50px;
-    margin: 25px;
+    font-size: 56px;
+    margin: 50px;
     text-decoration: none;
+    margin-top: 135px;
 `;
 
 const TitleImage=styled.h3`
@@ -31,8 +29,8 @@ const TitleImage=styled.h3`
 
 function Servicos(){
     return (
-        <>
-        <Header/>
+        <Layout>
+        
             <div>
                 <Title>Serviços oferecidos:</Title>
 
@@ -56,8 +54,8 @@ function Servicos(){
                 </div>
 
             </div>
-        <Footer/>
-        </>
+        
+        </Layout>
     )
 }
 export default Servicos;

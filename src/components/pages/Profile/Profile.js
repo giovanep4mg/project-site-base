@@ -1,4 +1,4 @@
-import Header from '../../Header/Header';
+import Layout from '../../Layout/layout';
 
 import styles from './Profile.module.css'
 import styled from 'styled-components';
@@ -9,8 +9,8 @@ import { Link } from 'react-router-dom';
 
 
 const Title = styled.h1`
-    font-size: 3rem;
-    margin: 42px;
+    font-size: 3.5rem;
+    margin: 40px;
 
     @media (max-width: 320px){
         font-size: 40px;
@@ -49,7 +49,9 @@ const MapUsar = styled.section`
     border: 2px solid black;
     margin-top: -98px;
     margin-bottom: 30px;
-    margin-left: 90px;
+    margin-left: 29px;
+    width: 85%;
+    height: 40%;
 
     @media (max-width: 320px){
         border: 2px solid black;
@@ -61,6 +63,7 @@ const MapUsar = styled.section`
     
 const DivDisplay= styled.section`
     display: flex;
+    margin-top: 30px;
 
     @media (max-width: 320px){
         display: flex;
@@ -70,8 +73,8 @@ const DivDisplay= styled.section`
 
 function Profile(){
     return (
-        <>
-        <Header/>
+        <Layout>
+        
         <DivDisplay>
             <section className={styles.profile}>
             
@@ -116,7 +119,7 @@ function Profile(){
             </section>
         </DivDisplay>
         
-        </>
+        </Layout>
     )
 }
 

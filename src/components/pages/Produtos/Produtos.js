@@ -1,5 +1,4 @@
-import Header from '../../Header/Header';
-import Footer from '../../Footer/Footer';
+import Layout from '../../Layout/layout';
 
 import styles from  './Produtos.module.css';
 import styled from 'styled-components';
@@ -10,12 +9,11 @@ import Produto3 from './imagens/gel-cola-fox.webp';
 import Produto4 from './imagens/pomada-fox-laranja.jpg';
 
 const TitleImage=styled.h3`
-   
-    font-family: serif;
+   font-family: serif;
     font-size: 2rem;
     text-align: center;
-    margin: -55px;
-    margin-right: 35px;
+    margin: -30px;
+    margin-right: -25px;
 
     @media (max-width: 320px){
         font-size: 2.5rem;
@@ -24,47 +22,12 @@ const TitleImage=styled.h3`
    
 `;
 
-const DivS =styled.div`
-    margin-top: 111px;
-    display: flex;
-    width: 60%;
-    align-items: center;
-    img{
-        width: 75%;
-        margin-left: 130px;
-    }
-    h3{
-        margin-right: -174px;
-        margin-top: 0px;
-        margin-bottom: 65px;
-        padding-bottom: 40px;
-    }
-    @media (max-width: 320px) {
-        /* Estilos para telas menores que 768px de largura */
-        width: 100%;
-        flex-direction: column;
-        padding-bottom: 15rem;
-
-        img {
-            width: 100%;
-            margin-left: 0;
-            margin-bottom: 20px;
-        }
-
-        h3 {
-            margin-right: 0;
-            margin-bottom: 20px;
-            padding-bottom: 20px;
-            font-size: 28px;
-        }
-    }
-`;
 
 function Produtos(){
     return (
         
-    <>
-        <Header/>
+    <Layout>
+        
             
             <div className={styles.produtos}>
          
@@ -75,13 +38,13 @@ function Produtos(){
                     </div>
                 </div>
                 <div>
-                    <img src={Produto2}alt='Foto de gel para cabelo masculino da marca Bozzano.'></img>
+                    <img src={Produto2} alt='Foto de gel para cabelo masculino da marca Bozzano.'></img>
                     <div>
                         <TitleImage>Gel Bozzano</TitleImage>
                     </div>
                 </div>
             </div>
-            <DivS>
+            <div className={styles.produtoCSS1}>
                 <div>
                     <img src={Produto3}alt='Foto de gel para cabelo masculino, da marca Fox.'></img>
                     <div>
@@ -89,15 +52,15 @@ function Produtos(){
                     </div>
                 </div>
                 <div>
-                    <img src={Produto4}alt='Foto de gel para cableo masculino.'></img>
+                    <img  src={Produto4}alt='Foto de gel para cableo masculino.'></img>
                     <div>
                         <TitleImage>Pomada Fox Laranja</TitleImage>
                     </div>
                 </div>
-            </DivS>
+            </div>
            
-        <Footer/> 
-    </>
+       </Layout>
+    
     )
 }
 export default Produtos;

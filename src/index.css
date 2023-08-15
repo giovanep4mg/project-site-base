@@ -6,9 +6,9 @@
 
 html{
   width: 100%;
-  padding-top: 119px;
-  margin-top: 35px;
-  border: 1px solid black; 
+  height: 100%;
+  border: 1px solid black;
+  
 }
 
 body {
