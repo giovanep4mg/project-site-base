@@ -2,10 +2,13 @@
 
 
 .home {
-  margin-top: 95px;
-  display: flex;
-  margin-left: 50px;
-  align-items: center;
+    margin-top: 96px;
+    display: flex;
+    margin-left: 0px;
+    align-items: center;
+    background-color: rgb(159 109 240 / 31%);
+    margin: 0px;
+    padding-top: 55px;
 }
 
 .home img {
@@ -26,6 +29,7 @@
   display: flex;
   margin-left: -30px;
   align-items: center;
+  background-color: rgb(159 109 240 / 31%);
 }
 
 .home1 img {

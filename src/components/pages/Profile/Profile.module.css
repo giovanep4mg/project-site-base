@@ -1,37 +1,19 @@
 .profile{
     padding-top: 10px;
-    margin-top: 51px;
-    margin-left: 27px;
+    margin-left: 0px;
     text-decoration: none;
+    background-color: rgba(111, 217, 192, 0.489);
+     padding-bottom: 26px;
+    padding-left: 20px;
 }
+
 
 .profile1{
     display: inline-flex;
+    background-color: rgba(111, 217, 192, 0.489);
 }
 
 .profile span{
     color: rgb(4, 4, 10);
     font-size: 3rem;
-}
-
-
-@media (max-width: 320px){
-    
-    .profile{
-        padding-top: 0px;
-    margin-top: 50px;
-    margin-left: 80px;
-    text-decoration: none;
-    }
-    
-    .profile1{
-        display: inline-flex;
-    }
-    
-    .profile span{
-        color: rgb(10 35 56);
-        font-size: 35px;
-    }
-    
-    
 }

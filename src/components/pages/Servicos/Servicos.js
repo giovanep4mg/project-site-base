@@ -10,7 +10,10 @@ const Title=styled.h1`
     font-size: 56px;
     margin: 50px;
     text-decoration: none;
-    margin-top: 135px;
+    background-color: rgba(111, 217, 192, 0.489);
+    margin: 0px;
+    padding-top: 102px;
+    padding-bottom: 20px;
 `;
 
 const TitleImage=styled.h3`

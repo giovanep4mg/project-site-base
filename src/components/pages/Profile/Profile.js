@@ -46,12 +46,11 @@ const SubTitle = styled.h3`
 `;
 
 const MapUsar = styled.section`
-    border: 2px solid black;
-    margin-top: -98px;
-    margin-bottom: 30px;
-    margin-left: 29px;
-    width: 85%;
-    height: 40%;
+        border: 10px solid black;
+        margin-top: -80px;
+        margin-left: 29px;
+        width: 64%;
+        height: 47%;
 
     @media (max-width: 320px){
         border: 2px solid black;
